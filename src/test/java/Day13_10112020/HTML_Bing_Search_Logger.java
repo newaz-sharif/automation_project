@@ -22,5 +22,5 @@ public class HTML_Bing_Search_Logger extends Abstract_Class {
         String[] arrayResult = result.split(" ");
         logger.log(LogStatus.PASS,"My search number is " + arrayResult[0]);
         //after all the test steps per @Test you must end the test as well
-    }//end of test
+    }//end of testing
 }//end of class
