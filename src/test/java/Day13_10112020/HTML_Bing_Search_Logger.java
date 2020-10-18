@@ -14,7 +14,7 @@ public class HTML_Bing_Search_Logger extends Abstract_Class {
         Reusable_Methods_Loggers.sendKeys(driver,"//*[@name='q']","Cars",logger,"Search Field");
         Reusable_Methods_Loggers.submit(driver,"//*[@id='sb_form_go']",logger,"Search Button");
         Thread.sleep(2500);
-    }//end of test
+    }//end of testing
 
     @Test(priority = 2)
     public void Bing_Search_Result() throws InterruptedException {
