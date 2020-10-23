@@ -1,4 +1,4 @@
-package Day14_10182020;
+package Day15_10182020;
 
 import Reusable_Library.Abstract_Class;
 import Reusable_Library.Reusable_Methods_Loggers;
@@ -11,7 +11,7 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.List;
 
-public class Day14_in_class_AI extends Abstract_Class {
+public class Day15_in_class_AI extends Abstract_Class {
 
     @Test
     public void yahoo_AI() throws InterruptedException {
